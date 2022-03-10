@@ -1,3 +1,7 @@
+main {
+  background-color: #f4f4f4;
+}
+
 .price {
   color: #ff136f;
 }
@@ -5,10 +9,62 @@
 .buy-now-btn {
   width: 168px;
   height: 52px;
-  background-color: #ff136f;
+
+  background: #bc4e9c;
+  background: -webkit-linear-gradient(to right, #f80759, #bc4e9c);
+  background: linear-gradient(to right, #f80759, #bc4e9c);
+
   color: white;
 }
 
 .bg-color {
   background-color: #feeae9;
+}
+
+.watch {
+  background: #fdc830;
+  background: -webkit-linear-gradient(to right, #f37335, #fdc830);
+  background: linear-gradient(to right, #f37335, #fdc830);
+  border-radius: 23px;
+}
+
+.bag {
+  background: #ec008c;
+  background: -webkit-linear-gradient(to right, #fc6767, #ec008c);
+  background: linear-gradient(to right, #fc6767, #ec008c);
+  border-radius: 23px;
+}
+
+.shoes {
+  background: #1488cc;
+  background: -webkit-linear-gradient(to right, #2b32b2, #1488cc);
+  background: linear-gradient(to right, #2b32b2, #1488cc);
+
+  border-radius: 23px;
+}
+
+.footer-section {
+  width: 1024px;
+  height: 440px;
+  border-radius: 17px;
+  margin: 50px 0px;
+  background-color: #fff2f1;
+}
+
+.send-field {
+  width: 550px;
+  padding: 10px 10px;
+  border: 0;
+  border-radius: 6px 0px 0px 6px;
+  outline: none;
+}
+
+.send-btn {
+  padding: 10px 30px;
+  border: 0;
+  background: #bc4e9c;
+  background: -webkit-linear-gradient(to right, #f80759, #bc4e9c);
+  background: linear-gradient(to right, #f80759, #bc4e9c);
+  color: white;
+  border-radius: 0px 6px 6px 0px;
 }
