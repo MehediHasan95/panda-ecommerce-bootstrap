@@ -51,14 +51,6 @@ main {
   background-color: #fff2f1;
 }
 
-.send-field {
-  width: 550px;
-  padding: 10px 10px;
-  border: 0;
-  border-radius: 6px 0px 0px 6px;
-  outline: none;
-}
-
 .send-btn {
   padding: 10px 30px;
   border: 0;
@@ -66,5 +58,6 @@ main {
   background: -webkit-linear-gradient(to right, #f80759, #bc4e9c);
   background: linear-gradient(to right, #f80759, #bc4e9c);
   color: white;
-  border-radius: 0px 6px 6px 0px;
+  border-radius: 6px;
+  margin-top: 6px;
 }
